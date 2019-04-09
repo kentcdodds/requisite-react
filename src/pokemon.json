@@ -1,0 +1,104 @@
+{
+  "Pikachu": {
+    "id": "UG9rZW1vbjowMjU=",
+    "number": "025",
+    "name": "Pikachu",
+    "attacks": {
+      "special": [
+        {
+          "name": "Discharge",
+          "type": "Electric",
+          "damage": 35
+        },
+        {
+          "name": "Thunder",
+          "type": "Electric",
+          "damage": 100
+        },
+        {
+          "name": "Thunderbolt",
+          "type": "Electric",
+          "damage": 55
+        }
+      ]
+    }
+  },
+  "Mew": {
+    "id": "UG9rZW1vbjoxNTE=",
+    "number": "151",
+    "name": "Mew",
+    "attacks": {
+      "special": [
+        {
+          "name": "Dragon Pulse",
+          "type": "Dragon",
+          "damage": 65
+        },
+        {
+          "name": "Earthquake",
+          "type": "Ground",
+          "damage": 100
+        },
+        {
+          "name": "Fire Blast",
+          "type": "Fire",
+          "damage": 100
+        },
+        {
+          "name": "Hurricane",
+          "type": "Flying",
+          "damage": 80
+        },
+        {
+          "name": "Hyper Beam",
+          "type": "Normal",
+          "damage": 120
+        },
+        {
+          "name": "Moonblast",
+          "type": "Fairy",
+          "damage": 85
+        },
+        {
+          "name": "Psychic",
+          "type": "Psychic",
+          "damage": 55
+        },
+        {
+          "name": "Solar Beam",
+          "type": "Grass",
+          "damage": 120
+        },
+        {
+          "name": "Thunder",
+          "type": "Electric",
+          "damage": 100
+        }
+      ]
+    }
+  },
+  "Mewtwo": {
+    "id": "UG9rZW1vbjoxNTA=",
+    "number": "150",
+    "name": "Mewtwo",
+    "attacks": {
+      "special": [
+        {
+          "name": "Hyper Beam",
+          "type": "Normal",
+          "damage": 120
+        },
+        {
+          "name": "Psychic",
+          "type": "Psychic",
+          "damage": 55
+        },
+        {
+          "name": "Shadow Ball",
+          "type": "Ghost",
+          "damage": 45
+        }
+      ]
+    }
+  }
+}

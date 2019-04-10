@@ -20,7 +20,18 @@
     "format": "prettier --write \"**/*.+(js|json|css|md|mdx|html)\""
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "overrides": [
+      {
+        "files": "**/slides/*.js",
+        "rules": {
+          "no-unused-vars": "off",
+          "no-undef": "off",
+          "react/jsx-no-undef": "off",
+          "default-case": "off"
+        }
+      }
+    ]
   },
   "husky": {
     "hooks": {

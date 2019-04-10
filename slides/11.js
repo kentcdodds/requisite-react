@@ -1,7 +1,7 @@
-Shawn Wang created this and it's awesome
+// [Shawn Wang](https://twitter.com/swyx) created this and it's awesome
+// - [Reactathon 2019 - Getting Closure on Hooks (Unofficial Screen Recording)](https://www.youtube.com/watch?v=VugRXf8Gg4o0)
+// - [Deep Dive: How do React Hooks](https://www.netlify.com/blog/2019/03/11/deep-dive-how-do-react-hooks-really-work/)
 
-```javascript
-// https://www.netlify.com/blog/2019/03/11/deep-dive-how-do-react-hooks-really-work/
 const MyReact = (function() {
   let hooks = [],
     currentHook = 0 // array of hooks, and an iterator!
@@ -32,9 +32,7 @@ const MyReact = (function() {
     },
   }
 })()
-```
 
-```javascript
 function Counter() {
   const [count, setCount] = MyReact.useState(0)
   const [text, setText] = MyReact.useState('foo') // 2nd state hook!
@@ -68,4 +66,3 @@ App.click()
 App = MyReact.render(Counter)
 // effect 2 bar
 // render {count: 2, text: 'bar'}
-```

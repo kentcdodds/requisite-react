@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import ErrorBoundary from 'react-error-boundary'
 import importAll from 'import-all.macro'
-import './hack-fetch'
+// import './hack-fetch'
 
 const allComponents = importAll.deferred('./components/*.js')
 

@@ -6,7 +6,7 @@ import fetchPokemon from '../fetch-pokemon'
 // fetchPokemon('Pikachu').then(pikachuData => {})
 
 function PokemonInfo({pokemonName}) {
-  const pokemon = '???'
+  const pokemon = pokemonResource.read(pokemonName)
   return <pre>{JSON.stringify(pokemon, null, 2)}</pre>
 }
 

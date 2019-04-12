@@ -1,6 +1,6 @@
 // youmightnotneedjquery.com
 
-// $(el).toggleClass(className);
+// $(el).toggleClass(className)
 function toggleClass(el, className) {
   if (el.classList) {
     el.classList.toggle(className)

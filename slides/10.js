@@ -24,6 +24,7 @@ console.log(React.createElement('div', {id: 'root'}, 'Hello world'))
 ui = <div id="root">Hello world</div>
 ui = <div id="root" children="Hello world" />
 ui = React.createElement('div', {id: 'root', children: 'Hello world'})
+ui = React.createElement('div', {id: 'root'}, 'Hello world')
 
 // children can be an array
 ui = (
